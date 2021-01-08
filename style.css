@@ -30,6 +30,21 @@ body {
     animation-fill-mode: forwards; 
 }
 
+.card {
+    opacity: .7;
+    text-align: center;
+    /* height: 300px;
+    width: 500px; */
+}
+
+.card:hover {
+    opacity: 1;
+    transition: opacity .6 ease-out;
+    -moz-transition: opacity .6s ease-out;
+    -webkit-transition: opacity .6s ease-out;
+    -o-transition: opacity .6s ease-out; 
+}
+
 .contentContainer1 {
     text-align: center;
 }
@@ -80,6 +95,17 @@ body {
 #navbar-background {
     background-image: url(assets/zones-of-change.jpg);
     /* opacity: .8; */
+}
+
+.projectTitle {
+    color:  rgb(56, 29, 29);
+    font-weight: bold;
+}
+
+.sectionTitle {
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
 
 .title {
