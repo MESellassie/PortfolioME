@@ -94,7 +94,13 @@ body {
 
 #navbar-background {
     background-image: url(assets/zones-of-change.jpg);
+    background-size: cover; 
     /* opacity: .8; */
+}
+
+.projectImage {
+    height: 300px;
+    width: 300px;
 }
 
 .projectTitle {
