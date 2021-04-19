@@ -30,6 +30,10 @@ body {
     animation-fill-mode: forwards; 
 }
 
+#projectIntro {
+    opacity: 1;
+}
+
 .card {
     opacity: .7;
     text-align: center;
@@ -85,6 +89,7 @@ body {
 
     }
 
+
 .name {
     color: rgb(56, 29, 29);
     font-family: 'Staatliches', cursive;
@@ -99,8 +104,17 @@ body {
 }
 
 .projectImage {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 500px;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 800px) {
+    .projectImage {
+        height: 300px;
+        width: 400px;
+        padding-top: 5%;
+    }
 }
 
 .projectTitle {
