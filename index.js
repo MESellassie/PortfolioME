@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    let projectContainers = ".projectContainer1";
+    let projectContainers = ".projectContainer1, .projectContainer2";
 
     $(projectContainers).hide();
 
@@ -10,6 +10,16 @@ $(document).ready(function () {
 
             $(".defaultContainer").hide("slow");
             $(".projectContainer1").show("slow");
+
+        });
+    });
+
+    $(function menuToggle2() {
+        $(".box2").click(function () {
+            event.preventDefault();
+
+            $(".defaultContainer").hide("slow");
+            $(".projectContainer2").show("slow");
 
         });
     });
