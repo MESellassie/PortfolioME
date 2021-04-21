@@ -58,6 +58,10 @@ body {
     text-align: center;
 }
 
+.card-title {
+    font-family: 'Staatliches', cursive;  
+}
+
 .introContainer {
     opacity: .6;
     text-align: center;

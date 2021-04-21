@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    let projectContainers = ".projectContainer1, .projectContainer2, .projectContainer3";
+    let projectContainers = ".projectContainer1, .projectContainer2, .projectContainer3, .projectContainer4";
 
     $(projectContainers).hide();
 
@@ -30,6 +30,16 @@ $(document).ready(function () {
 
             $(".defaultContainer").hide("slow");
             $(".projectContainer3").show("slow");
+
+        });
+    });
+
+    $(function menuToggle4() {
+        $(".box4").click(function () {
+            event.preventDefault();
+
+            $(".defaultContainer").hide("slow");
+            $(".projectContainer4").show("slow");
 
         });
     });
